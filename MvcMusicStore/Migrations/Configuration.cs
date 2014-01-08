@@ -9,7 +9,7 @@ namespace MvcMusicStore.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
         }
 
         protected override void Seed(MvcMusicStore.Models.MusicStoreEntities context)

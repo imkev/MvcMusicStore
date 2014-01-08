@@ -34,13 +34,13 @@ namespace MvcMusicStore
 
         protected void Application_Start()
         {
-            System.Data.Entity.Database.SetInitializer(new MvcMusicStore.Models.SampleData());
+            // System.Data.Entity.Database.SetInitializer(new MvcMusicStore.Models.SampleData());
             // System.Data.Entity.Database.SetInitializer<MusicStoreEntities>(null);
             
             AreaRegistration.RegisterAllAreas();
 
             // Use LocalDB for Entity Framework by default
-            // Database.DefaultConnectionFactory = new SqlConnectionFactory(@"Data Source=(localdb)\v11.0; Integrated Security=True; MultipleActiveResultSets=True");
+            Database.DefaultConnectionFactory = new SqlConnectionFactory(@"Data Source=(localdb)\v11.0; Integrated Security=True; MultipleActiveResultSets=True");
 
             RegisterGlobalFilters(GlobalFilters.Filters);
             RegisterRoutes(RouteTable.Routes);
