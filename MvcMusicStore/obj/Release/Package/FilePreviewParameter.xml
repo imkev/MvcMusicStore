@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="kluo123" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\kluo\\Documents\\Visual\ Studio\ 2012\\Projects\\MvcMusicStore\\MvcMusicStore\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\kluo\\Documents\\Visual\ Studio\ 2012\\Projects\\MvcMusicStore\\MvcMusicStore\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="MusicStoreEntities-Web.config Connection String" description="" value="Data Source=tcp:hgzvvy55ak.database.windows.net,1433;Initial Catalog=kluo123AKNu5sm5d;User Id=kluo@hgzvvy55ak;Password=imKev2013" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\kluo\\Documents\\Visual\ Studio\ 2012\\Projects\\MvcMusicStore\\MvcMusicStore\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MusicStoreEntities']/@connectionString" />
+  </parameter>
+</parameters>
