@@ -12,9 +12,6 @@ namespace MvcMusicStore.Models
         public int OrderId { get; set; }
 
         [ScaffoldColumn(false)]
-        public System.DateTime OrderDate { get; set; }
-
-        [ScaffoldColumn(false)]
         public string Username { get; set; }
 
         [Required(ErrorMessage = "First Name is required")]
@@ -61,6 +58,9 @@ namespace MvcMusicStore.Models
 
         [ScaffoldColumn(false)]
         public decimal Total { get; set; }
+
+        [ScaffoldColumn(false)]
+        public System.DateTime OrderDate { get; set; }
 
         public List<OrderDetail> OrderDetails { get; set; }
     }
