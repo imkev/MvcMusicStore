@@ -46,11 +46,20 @@ ul li a
 	font-size: 16px;
 }
 
-#main
+/*#main
 {
 	overflow: hidden;
 	padding: 0 0 15px 10px;
 	float: left;
+}*/
+
+#main
+{
+    overflow: hidden;
+    /*width: 700px;*/
+    padding: 0 0 15px 10px;
+    /*float: left;*/
+    border-left: #5d5a53 1px dotted;
 }
 
 ul
@@ -210,7 +219,7 @@ a:active
 
 /***************************** sidebar navigation ****************************/
 
-#categories
+/*#categories
 {
 	font-family: Constantia, Georgia, serif;
 	list-style-type: none;
@@ -218,6 +227,15 @@ a:active
 	padding-right: 10px;
 	margin: 0 25px 0 0;
 	float: left;
+}*/
+
+#categories
+{
+    font-family: Constantia, Georgia, serif;
+    list-style-type: none;
+    padding-right: 10px;
+    margin: 0 25px 0 0;
+    float: left;
 }
 
 #categories a:link, #categories a:visited
